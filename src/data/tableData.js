@@ -2,7 +2,7 @@ export const tableData = [
   {
     id: 1,
     index: 'Выручка, руб',
-    currentDateValue: 500521,
+    currentDayValue: 500521,
     yesterdayValue: 480521,
     thisDaysWeek: 4805121,
     parent_id: 0,
@@ -11,7 +11,7 @@ export const tableData = [
   {
     id: 2,
     index: 'Наличные',
-    currentDateValue: 300000,
+    currentDayValue: 300000,
     yesterdayValue: 300000,
     thisDaysWeek: 300000,
     parent_id: 1,
@@ -20,7 +20,7 @@ export const tableData = [
   {
     id: 3,
     index: 'Безналичный расчет',
-    currentDateValue: 100000,
+    currentDayValue: 100000,
     yesterdayValue: 100000,
     thisDaysWeek: 100000,
     parent_id: 1,
@@ -29,7 +29,7 @@ export const tableData = [
   {
     id: 4,
     index: 'Кредитные карты',
-    currentDateValue: 100521,
+    currentDayValue: 100521,
     yesterdayValue: 100521,
     thisDaysWeek: 100521,
     parent_id: 1,
@@ -38,7 +38,7 @@ export const tableData = [
   {
     id: 5,
     index: 'Средний чек, руб',
-    currentDateValue: 1300,
+    currentDayValue: 1300,
     yesterdayValue: 900,
     thisDaysWeek: 900,
     parent_id: 0,
@@ -47,7 +47,7 @@ export const tableData = [
   {
     id: 6,
     index: 'Средний гость, руб',
-    currentDateValue: 1200,
+    currentDayValue: 1200,
     yesterdayValue: 800,
     thisDaysWeek: 800,
     parent_id: 0,
@@ -56,7 +56,7 @@ export const tableData = [
   {
     id: 7,
     index: 'Удаления из чека (после оплаты), руб',
-    currentDateValue: 1000,
+    currentDayValue: 1000,
     yesterdayValue: 1100,
     thisDaysWeek: 900,
     parent_id: 0,
@@ -65,7 +65,7 @@ export const tableData = [
   {
     id: 8,
     index: 'Удаления из чека (до оплаты), руб',
-    currentDateValue: 1300,
+    currentDayValue: 1300,
     yesterdayValue: 1300,
     thisDaysWeek: 900,
     parent_id: 0,
@@ -74,7 +74,7 @@ export const tableData = [
   {
     id: 9,
     index: 'Количество чеков',
-    currentDateValue: 34,
+    currentDayValue: 34,
     yesterdayValue: 36,
     thisDaysWeek: 34,
     parent_id: 0,
@@ -83,7 +83,7 @@ export const tableData = [
   {
     id: 10,
     index: 'Количество гостей',
-    currentDateValue: 34,
+    currentDayValue: 34,
     yesterdayValue: 36,
     thisDaysWeek: 32,
     parent_id: 0,

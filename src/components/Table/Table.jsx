@@ -1,33 +1,25 @@
 import React, { useState } from 'react';
-import TableRow from '../TableRow/TableRow';
+import TableRow from './TableRow/TableRow.jsx';
 import classes from './Table.module.css';
-import {tableData} from '../../data/tableData.js'
+import { tableData } from '../../data/tableData.js'
 
 export default function Table() {
   const [data, setData] = useState(tableData); // Предполагается, что данные получим из бэкенда
 
-
   return (
-    <table className={classes.table} cellSpacing='3'>
-
-      <colgroup>
-        <col></col>
-        <col className={classes.currentDate}></col>
-        <col span="2"></col>
-
-      </colgroup>
+    <table className={classes.table}>
 
       <thead>
-        <tr>
+        <tr className={classes.headRow}>
           <th>Показатель</th>
-          <th>Текущий день</th>
-          <th>Вчера</th>
-          <th>Этот день недели</th>
+          <th className={classes.currentDay}>Текущий день</th>
+          <th className={classes.yesterday}>Вчера</th>
+          <th className={classes.thisDaysWeek}>Этот день недели</th>
         </tr>
       </thead>
 
       <tbody>
-        {data.map(rowData => <TableRow rowData={rowData} key={rowData.id}/>)}
+        {data.map(rowData => <TableRow rowData={rowData} key={rowData.id} />)}
       </tbody>
 
     </table>
