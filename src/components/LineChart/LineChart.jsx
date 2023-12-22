@@ -20,8 +20,9 @@ export default function LineChart() {
       labels: {
         enabled: false,
       },
-      tickWidth: 8,
-      tickLength: 8,
+
+      tickWidth: 5,
+      tickLength: 5,
     },
 
     yAxis: {
@@ -33,8 +34,8 @@ export default function LineChart() {
       },
 
       tickAmount: 6,
-      tickWidth: 8,
-      tickLength: 8,
+      tickWidth: 5,
+      tickLength: 5,
 
       lineColor: 'black',
       lineWidth: 1,
@@ -56,9 +57,12 @@ export default function LineChart() {
 
 
   return (
+    <div style={{width: '70%', margin: '0 auto'}}>
       <HighchartsReact
         highcharts={Highcharts}
         options={options}
+        containerProps={{ style: { height: '240px' } }}
       />
+    </div>
   )
 }

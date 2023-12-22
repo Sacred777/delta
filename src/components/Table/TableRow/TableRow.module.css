@@ -1,33 +1,72 @@
 .bodyRow {
   cursor: pointer;
+  outline: none;
 }
-
 
 .bodyRow td {
   border: var(--border-width) solid #fff;
   padding: 10px;
+  padding-right: 25px;
   font-weight: 500;
   font-size: 14px;
   background-color: hsl(0, 0%, 96%);
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.bodyRow:focus td {
+  background-color: hsl(0, 0%, 93%);
+}
+
+.bodyRow:focus .yesterday {
+  border-right-color: hsl(0, 0%, 93%);
 }
 
 .bodyRow:hover td {
   background-color: hsl(0, 0%, 93%);
 }
 
-
-.currentDay {
-  text-align: center;
+.bodyRow:hover .yesterday {
+  border-right-color: hsl(0, 0%, 93%);
 }
 
-.yesterday {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
+.bodyRow:active td {
+  filter: brightness(77%);
+}
 
+.bodyRow .currentDay {
+  text-align: right;
+  background-color: rgb(237, 248, 255);
+}
+
+.bodyRow .yesterday {
+  padding-right: 0;
+  text-align: right;
+  border-right-color: hsl(0, 0%, 96%);
+}
+
+.bodyRow .percent {
+  padding-right: 10px;
+  text-align: right;
 }
 
 .thisDaysWeek {
-  text-align: center;
+  text-align: right;
+}
+
+.bodyRow .positive {
+  background-color: #ecf7e7;
+}
+
+.bodyRow .negative {
+  background-color: #fee6e6;
+}
+
+.bodyRow .positivePlus {
+  background-color: #ecf7e7;
+  border-right-color: #ecf7e7;
+}
+
+.bodyRow .negativePlus {
+  background-color: #fee6e6;
+  border-right-color: #fee6e6;
 }

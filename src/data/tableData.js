@@ -5,7 +5,7 @@ export const tableData = [
     currentDayValue: 500521,
     yesterdayValue: 480521,
     thisDaysWeek: 4805121,
-    parent_id: 0,
+    parentId: 0,
   },
 
   {
@@ -14,7 +14,7 @@ export const tableData = [
     currentDayValue: 300000,
     yesterdayValue: 300000,
     thisDaysWeek: 300000,
-    parent_id: 1,
+    parentId: 1,
   },
 
   {
@@ -23,7 +23,7 @@ export const tableData = [
     currentDayValue: 100000,
     yesterdayValue: 100000,
     thisDaysWeek: 100000,
-    parent_id: 1,
+    parentId: 1,
   },
 
   {
@@ -32,7 +32,7 @@ export const tableData = [
     currentDayValue: 100521,
     yesterdayValue: 100521,
     thisDaysWeek: 100521,
-    parent_id: 1,
+    parentId: 1,
   },
 
   {
@@ -41,7 +41,7 @@ export const tableData = [
     currentDayValue: 1300,
     yesterdayValue: 900,
     thisDaysWeek: 900,
-    parent_id: 0,
+    parentId: 0,
   },
 
   {
@@ -50,7 +50,7 @@ export const tableData = [
     currentDayValue: 1200,
     yesterdayValue: 800,
     thisDaysWeek: 800,
-    parent_id: 0,
+    parentId: 0,
   },
 
   {
@@ -59,7 +59,7 @@ export const tableData = [
     currentDayValue: 1000,
     yesterdayValue: 1100,
     thisDaysWeek: 900,
-    parent_id: 0,
+    parentId: 0,
   },
 
   {
@@ -68,7 +68,7 @@ export const tableData = [
     currentDayValue: 1300,
     yesterdayValue: 1300,
     thisDaysWeek: 900,
-    parent_id: 0,
+    parentId: 0,
   },
 
   {
@@ -77,7 +77,7 @@ export const tableData = [
     currentDayValue: 34,
     yesterdayValue: 36,
     thisDaysWeek: 34,
-    parent_id: 0,
+    parentId: 0,
   },
 
   {
@@ -86,6 +86,6 @@ export const tableData = [
     currentDayValue: 34,
     yesterdayValue: 36,
     thisDaysWeek: 32,
-    parent_id: 0,
+    parentId: 0,
   },
 ]

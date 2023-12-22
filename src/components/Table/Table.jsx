@@ -10,10 +10,10 @@ export default function Table() {
     <table className={classes.table}>
 
       <thead>
-        <tr className={classes.headRow}>
+        <tr>
           <th>Показатель</th>
           <th className={classes.currentDay}>Текущий день</th>
-          <th className={classes.yesterday}>Вчера</th>
+          <th className={classes.yesterday} colSpan="2">Вчера</th>
           <th className={classes.thisDaysWeek}>Этот день недели</th>
         </tr>
       </thead>

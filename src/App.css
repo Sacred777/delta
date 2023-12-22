@@ -1,5 +1,12 @@
 .App {
+  display: flex;
+  justify-content: center;
   max-width: 1170px;
   margin: 0 auto;
   padding: 30px;
+}
+
+.wrapper {
+  padding: 0 4px;
+  background-color: #ddd;
 }
